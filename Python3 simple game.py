@@ -109,7 +109,7 @@ def collect_coin (coin, player_poz):
 def spawn_coin ():
     pygame.draw.rect (screen, (255, 255, 0), (coin_poz[0], coin_poz[1], coin_size, coin_size))
 
-
+# Main part
 while running:
     pygame.init ()
     pygame.display.set_caption ("DODGE IT!")
